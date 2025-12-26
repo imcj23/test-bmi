@@ -4,7 +4,7 @@ import IBIKKG from "../assets/univ.png";
 import Logo from "../assets/Logo.png";
 import Arrow from "../assets/arrowdown.png";
 import Hendi from "../assets/hendi.png";
-import Stevi from "../assets/stevi.png";
+import Stevi from "../assets/Stevi.png";
 import Data from "../assets/diagram diabetes.png";
 import "../styles/landingpage.css";
 
