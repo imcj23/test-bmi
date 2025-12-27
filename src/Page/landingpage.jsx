@@ -1,6 +1,6 @@
+import Navbar from '../components/navbar';
 import Chart from '../components/PieChart'
 import Quiz from '../components/quiz';
-import IBIKKG from "../assets/univ.png";
 import Logo from "../assets/Logo.png";
 import Arrow from "../assets/arrowdown.png";
 import Hendi from "../assets/hendi.png";
@@ -13,12 +13,7 @@ export default function LandingPage() {
     <>
       <main>
         <section className="container">
-          <nav className="navbar">
-            <div className="ibikkg">
-              <img src={IBIKKG} alt="IBIKKG Logo" className="logo" />
-              <div className="triangle"></div>
-            </div>
-          </nav>
+          <Navbar />
           <div className="manissecukupnya">
             <img src={Logo} alt="Logo" />
           </div>
